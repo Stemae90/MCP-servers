@@ -1,5 +1,7 @@
 # Model Context Protocol servers
 
+[![smithery badge](https://smithery.ai/badge/@Stemae90/mcp-servers)](https://smithery.ai/server/@Stemae90/mcp-servers)
+
 This repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references
 to community built servers and additional resources.
 
@@ -327,6 +329,14 @@ Additional resources on MCP.
 - **[Toolbase](https://gettoolbase.ai)** - Desktop application that manages tools and MCP servers with just a few clicks - no coding required by **[gching](https://github.com/gching)**
 
 ## 🚀 Getting Started
+
+### Installing via Smithery
+
+To install mcp-servers for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@Stemae90/mcp-servers):
+
+```bash
+npx -y @smithery/cli install @Stemae90/mcp-servers --client claude
+```
 
 ### Using MCP Servers in this Repository
 Typescript-based servers in this repository can be used directly with `npx`.
